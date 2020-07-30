@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/robot" />
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bubble_watbot"
+        android:lineSpacingExtra="2dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Hi, How are you?"
+        android:textColor="#0C0C0C"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_max="wrap"
+        app:layout_constraintWidth_percent="0.8" />
+    <ImageView
+        android:id="@+id/chat_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scrollbarSize="150dp"
+        android:visibility="gone" />
+
+
+
+
+
+</LinearLayout>

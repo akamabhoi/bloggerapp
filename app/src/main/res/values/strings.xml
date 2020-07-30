@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ExamGuru</string>
+    <string name="account_settings">nulla</string>
+    <string name="save_account_settings">nula</string>
+    <string name="name">nulla</string>
+    <string name="logout">nulla</string>
+
+    <string name="what_s_on_your_mind">What\'s on your mind?</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_ppt_generator">pptGenerator</string>
+
+    <string name="title_activity_heruku">heruku</string>
+    <string name="title_activity_questiongenerator">questiongenerator</string>
+
+
+</resources>

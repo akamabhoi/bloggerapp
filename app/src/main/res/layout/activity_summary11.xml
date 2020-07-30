@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".summary11"
+    android:gravity="center_vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/summarize">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/summary1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Summary"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="130dp"/>
+
+
+
+
+
+
+
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/marks"
+                android:layout_width="110dp"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                app:backGroundColor="#009688"
+                app:finalNumber="20"
+                android:layout_marginTop="10dp"
+                app:initialNumber="1"
+                android:layout_marginLeft="139dp"
+                android:layout_below="@+id/editText"
+                app:textSize="8sp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:hint="Copy Paste"
+                android:layout_below="@+id/summary1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:ems="10"
+                android:padding="10dp"
+                android:background="@drawable/et_bg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="vertical"
+                android:inputType="textMultiLine" />
+            <TextView
+                android:id="@+id/summary"
+                android:padding="10dp"
+                android:layout_below="@+id/marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Summery"
+                android:background="@drawable/et_bg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/summarize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summarize"
+        android:background="#00B8D4"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
